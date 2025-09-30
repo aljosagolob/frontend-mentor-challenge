@@ -1,0 +1,77 @@
+.page-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    font-family: "Figtree", sans-serif;
+    width: 384px;
+    height: auto;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(7px 8px 0px var(--color-gray-950));
+    border: 2px solid var(--color-gray-950);
+    border-radius: 20px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.blog-image {
+    border-radius: 10px;
+}
+
+.category {
+    padding: 4px 12px;
+    border-radius: 4px;
+    width: fit-content;
+    background-color: var(--color-yellow);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.description {
+    color: var(--color-gray-500);
+}
+
+.title,
+.publish-date,
+.category,
+.author-name {
+    color: var(--color-gray-950);
+}
+.title:hover {
+    cursor: pointer;
+    color: var(--color-yellow);
+}
+
+.author-wrapper {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.userpic {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        width: 327px;
+    }
+}
