@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [Add live site URL here](https://elaborate-queijadas-726869.netlify.app/)
+-   Live Site URL: [Netlify](https://elaborate-queijadas-726869.netlify.app/)
 
 ## My process
 
